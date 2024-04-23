@@ -1,6 +1,9 @@
-# 🎨 bingart
+<p align="center"> <img src="./logo.png" alt="Logo" width="250" height="210"> </p> 
 
-bingart is an unofficial 🤫 API wrapper for Bing Image Creator (based on DALL-E 3). It allows you to programmatically generate 🖼️ AI-powered images using Bing's image creation tool.
+
+<h1 align="center">🎨 Dalle-Bing: API wrapper for Bing Image Creator 🌐</h1>
+
+Dalle-Bing is an unofficial 🤫 API wrapper for Bing Image Creator (based on DALL-E 3). It allows you to programmatically generate 🖼️ AI-powered images using Bing's image creation tool.
 
 > ⚠️ **Warning:** The `_U` auth cookie should be changed every 2-4 weeks for working.
 
