@@ -1,4 +1,4 @@
-<p align="center"> <img src="./logo.png" alt="Logo" width="250" height="210"> </p> 
+<p align="center"> <img src="./logo.webp" alt="Logo" width="250" height="210"> </p> 
 
 
 <h1 align="center">🎨 Dalle-Bing: API wrapper for Bing Image Creator 🌐</h1>
