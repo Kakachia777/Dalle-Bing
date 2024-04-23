@@ -1,4 +1,4 @@
-<p align="center"> <img src="./logo.webp" alt="Logo" width="250" height="210"> </p> 
+<p align="center"> <img src="./logo.webp" alt="Logo" width="250" height="250"> </p> 
 
 
 <h1 align="center">🎨 Dalle-Bing: API wrapper for Bing Image Creator 🌐</h1>
@@ -20,30 +20,30 @@ This module uses web scraping and engineering techniques to interface with Bing'
 
 ## 💻 Usage
 
-Import and instantiate the `BingArt` class with a valid `_U` cookie value:
+Import and instantiate the `Dalle-Bing` class with a valid `_U` cookie value:
 
 ```python
-from bingart import BingArt
+from dallebing import dallebing
 
-bing_art = BingArt(auth_cookie_U='...')
+dalle_bing = dallebing(auth_cookie_U='...')
 
 try:
-    results = bing_art.generate_images('sunset')
+    results = dalle-bing.generate_images('sunset')
     print(results)
 finally:
-    bing_art.close_session()
+    dallebing.close_session()
 ```
 
 ### Sometimes an extra cookie called `KievRPSSecAuth` is required for it to work properly
 
 ```python
-bing_art = BingArt(auth_cookie_U='...', auth_cookie_KievRPSSecAuth='...')
+bing_art = dallebing(auth_cookie_U='...', auth_cookie_KievRPSSecAuth='...')
 ```
 
 ### Also, you can try the auto cookie search feature
 
 ```python
-bing_art = BingArt(auto=True)
+bing_art = dallebing(auto=True)
 ```
 
 
